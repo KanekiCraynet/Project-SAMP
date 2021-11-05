@@ -1,4 +1,4 @@
-/*[DISCORD LOGS DEWATARP]*/
+/*[DISCORD LOGS SAMPINDORP]*/
 //Channel id
 #define CHANNEL_ID "812937034272210986"
 //Announcement Server
