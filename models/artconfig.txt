@@ -1,0 +1,3 @@
+AddCharModel(285, 20003, "swat.dff", "swat.txd");
+AddCharModel(308, 20001, "h.dff", "h.txd");
+AddCharModel(285, 20002, "swat1.dff", "swat1.txd");
