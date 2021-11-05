@@ -600,7 +600,7 @@ CreateTextDraw()
 	TextDrawColor(TextTime,0xFFFFFFFF);
 	
 	//Server Name
-	SOIRP_TXD = TextDrawCreate(499.999267, 6.471089, "~p~Dewata ~r~Roleplay");
+	SOIRP_TXD = TextDrawCreate(499.999267, 6.471089, "~p~SAMPINDO ~r~Roleplay");
 	TextDrawLetterSize(SOIRP_TXD, 0.269998, 1.405864);
 	TextDrawAlignment(SOIRP_TXD, 1);
 	TextDrawColor(SOIRP_TXD, -1);

@@ -25,12 +25,12 @@ function CheckPlayerUCP(playerid)
 	    cache_get_value_name(0, "Password", pData[playerid][pPassword], 65);
 	    cache_get_value_name(0, "salt", pData[playerid][pSalt], 17);
 	    cache_get_value_name(0, "UCP", tempUCP[playerid]);
-	    format(str, sizeof(str), "{800080}Welcome Back to Dewata Roleplay!\n\n{ffffff}Your Account: %s\nStatus: {00ff00}Registered\n{ffffff}Plesae input your password to login:", GetName(playerid));
+	    format(str, sizeof(str), "{800080}Welcome Back to SAMPINDO Roleplay!\n\n{ffffff}Your Account: %s\nStatus: {00ff00}Registered\n{ffffff}Plesae input your password to login:", GetName(playerid));
 		ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "Account Login", str, "Login", "Exit");
 	}
 	else
 	{
-	    format(str, sizeof(str), "{800080}Welcome to Dewata Roleplay!\n\n{ffffff}Your Account: %s\nStatus: {ff0000}unregistered\n{ffffff}Plesae input your password to register:", GetName(playerid));
+	    format(str, sizeof(str), "{800080}Welcome to SAMPINDO Roleplay!\n\n{ffffff}Your Account: %s\nStatus: {ff0000}unregistered\n{ffffff}Plesae input your password to register:", GetName(playerid));
 		ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Account Register", str, "Register", "Exit");
 	}
 	return 1;
