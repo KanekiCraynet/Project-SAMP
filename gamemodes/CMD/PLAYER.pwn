@@ -44,7 +44,7 @@ CMD:credits(playerid)
 	new line1[1200], line3[500];
 	strcat(line3, ""LB_E"Server Founder & Developer: "YELLOW_E"NRAF\n");
 	format(line1, sizeof(line1), "%s", line3);
-   	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, ""ORANGE_E"DEWATARP: "WHITE_E"Server Credits", line1, "OK", "");
+   	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, ""ORANGE_E"SAMPINDORP: "WHITE_E"Server Credits", line1, "OK", "");
 	return 1;
 }
 
@@ -90,7 +90,7 @@ CMD:vip(playerid)
 
 	strcat(longstr2, "\n\n"LB_E"Pembayaran Via Pulsa/GO-PAY/BCA "LB2_E"Harga VIP Gold "LB_E"Rp.1,000/gold.\n\
 	"YELLOW_E"Untuk informasi selengkapnya hubungi discord NRAF#5614!");
-	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, ""ORANGE_E"DEWATARP "PINK_E"VIP SYSTEM", longstr2, "Close", "");
+	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, ""ORANGE_E"SAMPINDORP "PINK_E"VIP SYSTEM", longstr2, "Close", "");
 	return 1;
 }
 
@@ -136,7 +136,7 @@ CMD:donate(playerid)
     strcat(line3, ""RED_E"..::.. "WHITE_E"NOTE "RED_E"..::..\n");
     strcat(line3, ""WHITE_E"Note: "RED_E"Pembayaran Via Rekening BCA, Pulsa, Atau GO-PAY\n\n");
 
-	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, ""ORANGE_E"DEWATARP: "WHITE_E"DONATE LIST", line3, "Okay", "");
+	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, ""ORANGE_E"SAMPINDORP: "WHITE_E"DONATE LIST", line3, "Okay", "");
 	return 1;
 }
 

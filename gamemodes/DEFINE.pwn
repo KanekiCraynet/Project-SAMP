@@ -1,6 +1,6 @@
 // Server Define
-#define TEXT_GAMEMODE	"Dewata Roleplay v2.3.1 by LRP"
-#define TEXT_WEBURL		"dewatarp.xyz"
+#define TEXT_GAMEMODE	"SAMPINDO Roleplay v2.3.1 by LRP"
+#define TEXT_WEBURL		"sampindo.xyz"
 #define TEXT_LANGUAGE	"Indonesia/English"
 
 // MySQL configuration
